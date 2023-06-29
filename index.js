@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
+app.get("/users", (req, res) => {
   const users = [
     { id: 1, name: "John Doe" },
     { id: 2, name: "Jane Doe" },
